@@ -8,11 +8,11 @@
 
 * Server configuration
   ** xref:config/server-configuration-overview.adoc[Server configuration overview]
-  include::reference:partial$config-nav.adoc[]
+include::reference:partial$config-nav.adoc[]
 
 * Features
   ** xref:feature/feature-overview.adoc[Feature overview]
-  include::reference:partial$feature-nav.adoc[]
+include::reference:partial$feature-nav.adoc[]
 
 * Commands
   ** xref:command/securityUtility-createLTPAKeys.adoc[securityUtility createLTPAKeys]
