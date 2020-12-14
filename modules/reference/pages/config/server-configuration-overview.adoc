@@ -244,9 +244,9 @@ The default is `${wlp.user.dir}/servers/${wlp.server.name}`.
 The default is `${server.config.dir}`.
 
 == Configuration merging
-Since the configuration can consist of multiple files, it is possible that two files provide the same  configuration
+Since the configuration can consist of multiple files, it is possible that two files provide the same configuration.
 In these situations, the server configuration is merged according to a set of simple rules.
-In {projectName}, configuration is separated into singleton and factory  configuration each of which has its own rules for merging.
+In {projectName}, configuration is separated into singleton and factory configuration each of which has its own rules for merging.
 Singleton configuration is used to configure a single element (for example, logging).
 Factory configuration is used to configure multiple entities, such as an entire application or data source.
 
@@ -324,7 +324,7 @@ is treated as:
 
 === Merging factory configuration
 Factory configuration merges use the same rules as singleton configuration except elements are not automatically merged just because the element names match.
-With factory  configuration it is valid to configure the same element and mean two different logical objects.
+With factory configuration it is valid to configure the same element and mean two different logical objects.
 Therefore, each element is assumed to configure a distinct object.
 If a single logical object is configured by two elements, the `id` attribute must be set on each element to indicate they are the same thing.
 Variable substitution on an `id` attribute is not supported.
